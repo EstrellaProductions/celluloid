@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body
+{
+    font-family: 'Noto Sans Cherokee', sans-serif;
+}
+
+#title 
+{
+    background-color: #7149C6;
+}
+
+.container
+{
+    padding: 0% 6% 3% 6%;
+}
+
+nav
+{
+    background-color: #FC2947;
+}
+
+.nav-logo
+{
+    width: 4rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.5rem;
+}
+
+.navbar-idol
+{
+    width: 3rem;
+}
+
+
+#title h1
+{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+#bang
+{
+    width: 9rem;
+}
+
+#date
+{
+    font-size: 4rem;
+}
+
+#timer
+{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.9rem;
+    color: #FFDEB9;
+}
+
+.title-image
+{
+    width: 80%;
+    margin: 0% 15% 0%;
+}
+
+#about
+{
+    background-image: url('assets/banner.jpg');
+    background-size: cover;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+#events
+{
+    background-color: #FFDEB9;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#events h1
+{
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.event-card
+{
+    margin: 2%;
+    width: 20rem;
+}
+
+.event-card img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#footer
+{
+    background-color: #408E91;
+}
+
+#footer .container
+{
+    padding: 3% 0 0 0;
+    color: #fff;
+}
+
+#footer h5
+{
+    font-size: 2rem;
+    padding-left: 3%;
+}
+
+.power-ranger
+{
+    width: 40%;
+    height: 16rem;
+}
+
+
+.footer-logos
+{
+    width: 10rem;
+}
+
+@media (max-width: 990px) {
+
+    #title {
+      text-align: center;
+    }
+
+    #title h1
+    {
+        font-size: 2.5rem;
+    }
+
+    #timer
+    {
+        margin-bottom: 0;
+    }
+
+    .power-ranger
+    {
+        height: auto;
+    }
+  }
